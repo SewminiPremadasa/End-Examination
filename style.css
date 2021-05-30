@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200&display=swap');
+
+/*Navbar*/
+.navbar{
+    margin: 0 !important;
+    padding: 0 2rem;
+    
+}
+.navbar-light{
+    background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding-right: 3rem;
+    color: rgb(38, 171, 204);
+    font-size: 1.1rem;
+    font-weight: 600 !important;
+} 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(32, 160, 147);
+}
+
+/*Links*/
+.links{
+    background-color:rgb(38, 171, 204) ;
+}
+.links .flex-row a{
+    text-decoration: none;
+    padding-right: 1rem;
+    font-size: 1.1rem;
+    color: #fff;
+}
+.links .flex-row a:hover{
+    color: rgb(255, 145, 0);
+}
+
+.background{
+    padding:0;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute !important;
+    top: 50%;
+    /* left: 40%; */
+    right: -10%;
+    transform: translate(-50%, -50%);
+  }
+/* .headings{
+    padding-right: 10rem;
+    width:100%;
+    max-width: 100%;
+    position: absolute !important;
+    top:60%;
+    right: 10%;
+    z-index:1;
+    color:white;
+    text-transform: uppercase; */
+   
+
+.background .centered .captions {
+    background: rgb(255, 145, 0) 0.5rem 0rem !important;
+    padding: 0;
+    margin: 0;
+}
+/*intro section*/
+.intro{
+    background-color:rgb(38, 171, 204) ;
+  
+}
+.intro p{
+    color: white;
+}
+.intro .btn-secondary{
+    background:rgb(111, 175, 190) !important ;
+    border:rgb(161, 175, 179) ;
+}
+
+/*Project*/
+
+.projects .heading{
+    color: rgb(255, 145, 0);
+    padding-left: 12rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.projects .one{
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    border-radius: 1px !important;
+    border:solid rgb(224, 222, 222);
+}
+
+.projects .one .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 10px;
+    background:rgb(255, 145, 0);
+    padding: 0.2rem 0.3rem;
+    color: white;
+  }
+ .projects .one .sale{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 10px;
+    background:rgb(38, 171, 204);
+    padding: 0.2rem 0.3rem;
+    color: white;
+  }
+  
+  .projects .one .fa-star{
+      color: rgb(38, 171, 204);
+  }
+  .projects .one h5{
+    color: rgb(255, 145, 0);
+  }
+  .projects .one p{
+      color: rgb(255, 145, 0);
+      font-size: smaller;
+  }
+  .projects .one p strike{
+      color: #111;
+  }
+
+
+  /*Inbox*/
+
+.Inbox{
+    background-color:rgb(255, 145, 0) ;
+  
+}
+.Inbox p{
+    color: white;
+}
+.Inbox .btn-secondary{
+    background:rgb(243, 162, 56) !important ;
+    border:rgb(243, 162, 56) ;
+}
+
+.works .heading{
+    color: rgb(255, 145, 0);
+    padding-left: 12rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
